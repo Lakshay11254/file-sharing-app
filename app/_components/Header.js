@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <header className="bg-white">
-        <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 border-b">
           <a className="block text-teal-600" href="/">
             <span className="sr-only">Home</span>
             <svg
@@ -41,7 +41,7 @@ function Header() {
                     href="/"
                   >
                     {" "}
-                    About{" "}
+                    Home{" "}
                   </a>
                 </li>
 
@@ -51,7 +51,7 @@ function Header() {
                     href="/"
                   >
                     {" "}
-                    Careers{" "}
+                   Upload{" "}
                   </a>
                 </li>
 
@@ -61,7 +61,7 @@ function Header() {
                     href="/"
                   >
                     {" "}
-                    History{" "}
+                    About Us{" "}
                   </a>
                 </li>
 
@@ -71,27 +71,7 @@ function Header() {
                     href="/"
                   >
                     {" "}
-                    Services{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
-                  >
-                    {" "}
-                    Projects{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
-                  >
-                    {" "}
-                    Blog{" "}
+                    Contact Us{" "}
                   </a>
                 </li>
               </ul>
